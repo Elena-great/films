@@ -48,3 +48,19 @@ a {
   font-size: 20px;
   color: orange;
 }
+
+@media all and (max-width: 500px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  #search {
+    margin-left: 30px;
+    margin-right: 40px;
+  }
+
+  .movie {
+    margin-bottom: -15px;
+    
+  }
+}
